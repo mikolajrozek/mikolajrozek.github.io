@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,900);
-@import url(https://pl.allfont.net/allfont.css?fonts=merriweather-heavy-italic);
+@import url('https://fonts.googleapis.com/css?family=Merriweather:900,900i');
 *{
 	margin: 0;
 	padding: 0;
@@ -30,7 +30,8 @@ body {
 .logo p {
 	display: inline-block;
 	color: white;
-	font-family: 'Merriweather Heavy Italic', arial;
+	font-family: 'Merriweather', serif;
+	font-style: italic;
 	margin-left: 5px;
 	font-size: 40px;
 	line-height: 54px;
