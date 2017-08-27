@@ -9,20 +9,23 @@ body {
 /* HEADER SECTION */
 .header {
 	background-image: url("img/header.jpg");
-    height: calc(100vh - 100px);
     background-position: center;
     background-size: cover;
 	margin-bottom: 8%;
 }
-.header .container-fluid {
+.header .container{
 	width: 63.157894%;
 }
-.header .nav {
+.header .navbar {
 	position: relative;
-     margin: 0 auto;
-     border: 1px solid lightslategray;
-     border-top-style: none;
+    margin: 0 auto;
+    border: 1px solid lightslategray;
+    border-top-style: none;
 	margin-bottom: 10%;
+    color: white;
+}
+nav .bg-light {
+    background-color: transparent;
 }
 .header .logo {
     margin-top: 0.75%;
@@ -33,9 +36,17 @@ body {
 	text-transform: uppercase;
 	margin-top: 1.75%;
 	margin-bottom: 1.75%;
+    font-size: 0.8em;
 }
-.header ul li a {
+.navbar-nav {
+    margin-right: 0;
+}
+.navbar-light .navbar-nav .nav-link {
 	color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+	color: white;
+    opacity: 0.8;
 }
 .header .row {
 	margin: 0 2%;
@@ -57,6 +68,7 @@ body {
 	text-transform: uppercase;
 	border-radius: 0;
 	padding: 2% 10%;
+    margin-bottom: 8%;
 }
 /* FEATURES SECTION */
 .features {
@@ -138,16 +150,24 @@ body {
 	width: 100%;
 }
 .clients .quote {
-	font-family: 'Cardo', serif;
-	font-style: italic;
-	font-size: 1.8em;
-	padding: 12% 25% 1% 10%;
+    position: absolute;
+    font-family: 'Cardo', serif;
+    font-style: italic;
+    padding: 0 10%;
+    font-size: 1.8em;
+    top: 20%;
+    left: 0;
+    right: 0;
 }
 .clients .under {
-	font-size: 0.7em;
-	font-weight: bold;
-	text-transform: uppercase;
-	padding: 0 25% 10% 10%;
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    font-size: 0.7em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0 25% 10% 10%;
 }
 /* DOWNLOAD SECTION*/
 .download .container {
