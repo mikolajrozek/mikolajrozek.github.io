@@ -11,6 +11,10 @@ $(document).ready(function(){
         window.open("https://mikolajrozek.github.io/projekt_ambitny_2/index.html",'_blank');
     });
     
+    $('.project3').click(function(){
+        window.open("https://jsfiddle.net/kezoore/ud9rgmaf/",'_blank');
+    });
+    
     $('a[href^="#"]').on('click',function (e) {
 	    e.preventDefault();
 
