@@ -94,7 +94,7 @@ i.ci {
 .ci.ci-dumbell		{ background-position: -395px 0; }
 
 #hero {
-	background: url('../img/photo_1.jpg') 50% 50% no-repeat fixed;
+	background: url('../img/photo_1.jpg') 50% 60% no-repeat fixed;
 	min-height: 500px;
 	position: relative;
 	display: table;

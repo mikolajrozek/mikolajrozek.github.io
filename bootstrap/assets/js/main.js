@@ -6,7 +6,7 @@ $(function() {
 		
 		$(window).scroll(function() {
 			var yPos = -($window.scrollTop() / $bgobj.data('speed'));
-			var coords = '50% '+ yPos + '50%';
+			var coords = '50% '+ yPos + '%';
 			$bgobj.css({ backgroundPosition: coords });
 		});
 	});
