@@ -12,6 +12,10 @@ $(document).ready(function(){
     });
     
     $('.project3').click(function(){
+        window.open("https://mikolajrozek.github.io/bootstrap/index.html",'_blank');
+    });
+    
+    $('.project4').click(function(){
         window.open("https://jsfiddle.net/kezoore/ud9rgmaf/",'_blank');
     });
     

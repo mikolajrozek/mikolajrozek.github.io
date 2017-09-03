@@ -105,7 +105,10 @@ hr {
     border-radius: 2%;
     font-size: 2em;
 }
-.project1, .project2, .project3 {
+.main p {
+   margin: 0 auto;
+}
+.project1, .project2, .project3, .project4 {
     height: 305px;
     background-image: url(../img/project_1.jpg);
     background-size: cover;
@@ -121,7 +124,10 @@ hr {
 .project3 {
     background-image: url(../img/project_3.jpg);
 }
-.project1:hover, .project2:hover, .project3:hover {
+.project4 {
+    background-image: url(../img/project_4.jpg);   
+}
+[class*='project']:hover {
     opacity: 1;
     transform: scale(1);
     cursor: pointer;
