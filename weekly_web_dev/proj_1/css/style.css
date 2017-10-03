@@ -195,6 +195,9 @@ input, select:focus {
         display: table;
         width: 50%;
     }
+    .form {
+        margin-bottom: 0;
+    }
 }
 @media (min-width: 769px) and (max-width: 1024px) {
     main {
