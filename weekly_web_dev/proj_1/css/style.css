@@ -190,27 +190,30 @@ input, select:focus {
 }
 
 /* == MEDIA QUERIES == */
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 320px) {
     header, main {
         width: 138%;
     }
 }
-/*@media (max-width: 768px) {
-    main {
-        display: table;
-        width: 50%;
+
+@media (min-width: 321px) and (max-width: 767px) {
+    header, main {
+        width: 138%;
     }
-}*/
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
     main {
         width: 55%;
     }
 }
+
 @media (min-width: 1025px) and (max-width: 1440px) {
     main {
         width: 85%;
     }
 }
+
 @media (min-width: 1440px) {
     main {
         width: 65%;
