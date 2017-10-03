@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "TitilliumText22L Lt";
+    src: url("./fonts/");
+}
+
 /* == GENERAL ==*/
 * {
     -webkit-box-sizing: border-box;
@@ -36,8 +41,6 @@ h2 {
 }
 
 img {
-    mix-blend-mode: soft-light;
-    -webkit-filter: drop-shadow(-2px -2px 0 rgba(0, 0, 0, .6));
     filter: drop-shadow(-2px -2px 0 rgba(0, 0, 0, .6));
     display: block;
     margin: 0 auto;
@@ -79,12 +82,15 @@ input:first-of-type {
 
 .form input, select, textarea {
     margin-bottom: 20px;
-    padding: 20px 0 20px 80px;
+    padding: 0 80px;
     display: block;
     width: 340px;
     height: 40px;
     border: 1px solid lightgray;
     border-radius: 4px;
+}
+textarea {
+    padding-top: 20px;
 }
 
 .form input[type="username"] {
@@ -110,7 +116,7 @@ input:first-of-type {
 .form select {
     background: url("../img/location.png") no-repeat 15px, url("../img/arrow.png") no-repeat 97% center;
     -webkit-appearance: button;
-    -moz-appearance: button;
+    -moz-appearance: none;
     appearance: button;
 }
 
@@ -156,6 +162,7 @@ input[type="submit"]:hover {
 input[type="checkbox"] {
     display: inline-block;
     -webkit-appearance: none;
+    -moz-appearance: none;
     background-color: #fafafa;
     padding: 5px;
     border-radius: 5px;
