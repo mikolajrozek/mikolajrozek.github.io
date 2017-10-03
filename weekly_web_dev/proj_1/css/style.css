@@ -84,7 +84,7 @@ input:first-of-type {
     margin-bottom: 20px;
     padding: 0 80px;
     display: block;
-    width: 340px;
+    width: 100%;
     height: 40px;
     border: 1px solid lightgray;
     border-radius: 4px;
@@ -192,13 +192,45 @@ input, select:focus {
 /* == MEDIA QUERIES == */
 @media (max-width: 320px) {
     header, main {
-        width: 138%;
+        width: 100%;
+    }
+    img {
+        width: 100%;
+    }
+    .form input, select, textarea {
+        padding: 0 65px;
+    }
+    input[type="checkbox"] {
+        padding: 5px;
+    }
+    .send, .subscribe  {
+    float: none;
+    }
+    .sign-in input, .send input, .done input, .subscribe input, .thanks input {
+        width: 100%;
+        float: right;
     }
 }
 
 @media (min-width: 321px) and (max-width: 767px) {
     header, main {
-        width: 138%;
+        width: 100%;
+    }
+    img {
+        width: 100%;
+    }
+    .form input, select, textarea {
+        padding: 0 65px;
+    }
+    input[type="checkbox"] {
+        padding: 5px;
+    }
+.send, .subscribe  {
+    float: none;
+    }
+    .sign-in input, .send input, .done input, .subscribe input, .thanks input {
+        width: 100%;
+        float: right;
     }
 }
 
