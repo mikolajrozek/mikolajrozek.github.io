@@ -1,0 +1,57 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+}
+
+.navbar-header {
+    font-family: "Lobster";
+    max-width: 60%;
+}
+.navbar{
+    margin-bottom: 0;
+}
+
+ul.nav a {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+ul.nav a:hover {
+    color: #777 !important;
+    //text-decoration: underline;
+    padding-bottom: 1px;
+    border-bottom: solid 4px aqua;
+}
+
+.jumbotron {
+    max-width: 100%;
+    min-height: 70vh;
+    margin-bottom: 50px;
+    background: url('pexels-photo.jpg') 50% 0 fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bkg {
+    background: grey;
+    opacity: 0.7;
+}
+
+.greating {
+    margin-top: 20%;
+    color: #fff;
+    text-align: center;
+    font-size: 2em !important;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.about_me {
+    margin-bottom: 50px;
+    text-align: justify;
+}
+
+.photo {
+    min-height: 40vh;
+    background-image: url(image001.gif);
+    background-repeat: no-repeat;
+    background-position: center top;
+}
