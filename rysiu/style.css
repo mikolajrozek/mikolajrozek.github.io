@@ -2,6 +2,9 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 16px;
 }
+.hideme {
+    opacity: 0;
+}
 
 .navbar-header {
     font-family: "Lobster";
@@ -18,16 +21,15 @@ ul.nav a {
 
 ul.nav a:hover {
     color: #777 !important;
-    //text-decoration: underline;
     padding-bottom: 1px;
     border-bottom: solid 4px aqua;
 }
 
 .jumbotron {
     max-width: 100%;
-    min-height: 70vh;
+    min-height: 100vh;
     margin-bottom: 50px;
-    background: url('pexels-photo.jpg') 50% 0 fixed;
+    background: url('pexels-photo-sm.jpg') 50% 0 fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -36,7 +38,7 @@ ul.nav a:hover {
     opacity: 0.7;
 }
 
-.greating {
+h1.greeting {
     margin-top: 20%;
     color: #fff;
     text-align: center;
@@ -44,13 +46,20 @@ ul.nav a:hover {
     text-shadow: 2px 2px 4px #000000;
 }
 
-.about_me {
+.about_me, .gabinet {
     margin-bottom: 50px;
+}
+
+.about_me p, .gabinet p {
     text-align: justify;
 }
 
+hr.style1 {
+    border-top: 4px double #8c8b8b;
+}
+
 .photo {
-    min-height: 40vh;
+    min-height: 272px;
     background-image: url(image001.gif);
     background-repeat: no-repeat;
     background-position: center top;
