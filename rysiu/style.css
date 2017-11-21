@@ -46,11 +46,11 @@ h1.greeting {
     text-shadow: 2px 2px 4px #000000;
 }
 
-.about_me, .gabinet {
+.about_me, .office {
     margin-bottom: 50px;
 }
 
-.about_me p, .gabinet p {
+.about_me p, .office p {
     text-align: justify;
 }
 
