@@ -21,9 +21,6 @@ $(function() {
     $('.jumbotron').fadeIn(2500);
 });
 
-$(function() {
-    $('.greeting').slideDown(200);
-});
 
 $(function() {
     $(window).scroll(function() {
