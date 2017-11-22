@@ -1,5 +1,7 @@
 window.onbeforeunload = function() {window.scrollTo(0,0);}
 
+function main(){
+
 $(function() {
     var $window = $(window);
     $('section[data-type="background"]').each(function() {
@@ -17,6 +19,10 @@ $(function() {
     $('.navbar').fadeIn(900);
     $('.jumbotron').hide();
     $('.jumbotron').fadeIn(2500);
+});
+
+$(function() {
+    $('.greeting').slideDown(200);
 });
 
 $(function() {
@@ -44,3 +50,7 @@ $(function() {
 	        window.location.hash = target;
 	    });
 	});
+
+};
+
+$(document).ready(main);
