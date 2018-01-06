@@ -1,5 +1,14 @@
+@font-face {
+    font-family: Lobster;
+    src: url(fonts/Lobster-Regular.ttf);
+}
+@font-face {
+    font-family: Josefin;
+    src: url(fonts/JosefinSans-Regular.ttf);
+}
+
 body {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: Josefin, sans-serif;
     font-size: 16px;
 }
 .hideme {
@@ -7,7 +16,7 @@ body {
 }
 
 .navbar-header {
-    font-family: "Lobster";
+    font-family: Lobster, cursive;
     max-width: 60%;
 }
 .navbar{
