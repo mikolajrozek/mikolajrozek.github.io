@@ -128,6 +128,12 @@ footer .copyright a:hover {
     }
 }
 
+@media(max-width: 768px) {
+    header {
+        text-align: center;
+    }
+}
+
 @media (min-width: 992px) {
     iframe {
         width: 100%;
