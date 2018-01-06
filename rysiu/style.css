@@ -53,6 +53,11 @@ h1.greeting {
     text-align: justify;
 }
 
+.office .hours a {
+    color: black;
+    text-decoration: none;
+}
+
 hr.style1 {
     border-top: 4px double #8c8b8b;
 }
