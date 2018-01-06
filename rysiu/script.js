@@ -1,3 +1,4 @@
+
 window.onbeforeunload = function() {window.scrollTo(0,0);}
 
 function main(){
@@ -16,9 +17,9 @@ $(function() {
 
 $(function() {
     $('.navbar').hide();
-    $('.navbar').fadeIn(900);
+    $('.navbar').fadeIn(1000);
     $('.jumbotron').hide();
-    $('.jumbotron').fadeIn(2500);
+    $('.jumbotron').fadeIn(1500);
 });
 
 
@@ -28,8 +29,8 @@ $(function() {
             var bottom_of_obj = $(this).position().top + $(this).outerHeight();
             var bottom_of_win = $(window).scrollTop() + $(window).height();
 
-            if(bottom_of_win > bottom_of_obj) {
-                $(this).animate({'opacity':'1'}, 1500);
+            if(bottom_of_win = bottom_of_obj) {
+                $(this).animate({'opacity':'1'}, 1000);
             }
         });
     });

@@ -29,7 +29,7 @@ ul.nav a:hover {
     max-width: 100%;
     min-height: 70vh;
     margin-bottom: 50px;
-    background: url('pexels-photo-sm.jpg') 50% 0 fixed no-repeat;
+    background: url('img/pexels-photo-sm.jpg') 50% 0 fixed no-repeat;
     background-size: cover;
 }
 .bkg {
@@ -59,7 +59,38 @@ hr.style1 {
 
 .photo {
     min-height: 272px;
-    background: url(image001.gif) center top no-repeat;
+    background: url('img/image001.gif') center top no-repeat;
+}
+
+.qualifications .container  {
+	margin: 0 auto;
+	max-width: 100%;
+	margin-bottom: 8%;
+}
+
+.qualifications .container img {
+	padding: 0;
+ margin-bottom: 1em;
+	width: 100%;
+}
+
+.qualifications .container img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    background: #eee;
+    padding-top: 1%;
+    margin: 0;
+}
+
+footer .copyright a {
+    color: black;
+}
+
+footer .copyright a:hover {
+    text-decoration: none;
+    font-style: italic;
 }
 
 @media screen and (max-width: 480px) {
@@ -73,8 +104,22 @@ hr.style1 {
     .navbar-brand {
         margin: 0 40px;
     }
+    .jumbotron {
+    max-width: 100%;
+    min-height: 10vh;
+    margin-bottom: 50px;
+    background: url('img/pexels-photo-sm.jpg') 50% 0 fixed no-repeat;
+    background-size: cover;
+}
     iframe {
         width: 100%;
+    }
+    .certificate .container img:hover {
+        transform: scale(1);
+    }
+    footer {
+        padding-top: 2%;
+        text-align: center;
     }
 }
 
