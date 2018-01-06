@@ -7,7 +7,7 @@ $(function() {
     var $window = $(window);
     $('section[data-type="background"]').each(function() {
         var $bgobj = $(this);
-        $(window).scroll(function() {
+        $window.scroll(function() {
             var yPos = -($window.scrollTop() / $bgobj.data('speed'));
             var coords = '50% ' + yPos + 'px';
             $bgobj.css({backgroundPosition: coords});
@@ -36,13 +36,13 @@ $(function() {
     });
 });
 
-    $('a[href^="#"]').on('click',function (e) {
+$('a[href^="#"]').on('click',function (e) {
 	    e.preventDefault();
 
 	    var target = this.hash;
 	    var $target = $(target);
 
-	    $('html, body').stop().animate({
+$('html, body').stop().animate({
 	        'scrollTop': $target.offset().top
 	    }, 700, 'swing', function () {
 	        window.location.hash = target;
