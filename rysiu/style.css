@@ -109,9 +109,23 @@ footer .copyright a:hover {
     .navbar-brand {
         margin: 0 40px;
     }
+
+    ul.nav a:hover {
+    color: #777 !important;
+    padding-bottom: 1px;
+    margin: 0 auto;
+    width: 150px;
+    border-bottom: solid 4px aqua;
+    }
+
+    .jumbotron .greeting {
+        margin-top: 10%;
+        font-size: 1.5em !important;
+    }
+
     .jumbotron {
     max-width: 100%;
-    min-height: 10vh;
+    min-height: 30vh;
     margin-bottom: 50px;
     background: url('img/pexels-photo-sm.jpg') 50% 0 fixed no-repeat;
     background-size: cover;
@@ -119,7 +133,7 @@ footer .copyright a:hover {
     iframe {
         width: 100%;
     }
-    .certificate .container img:hover {
+    .qualifications .container img:hover {
         transform: scale(1);
     }
     footer {
@@ -131,6 +145,9 @@ footer .copyright a:hover {
 @media(max-width: 768px) {
     header {
         text-align: center;
+    }
+    .qualifications .container img:hover {
+        transform: scale(1);
     }
 }
 
