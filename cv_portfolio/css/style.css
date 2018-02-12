@@ -233,6 +233,10 @@ main .portfolio {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
 
+    .info h2 {
+	   font-size: 0.85em;
+    }
+
     .name h3 {
         top: 35%;
         left: 25%;
@@ -245,14 +249,14 @@ main .portfolio {
 	}
 
     .info h2:last-child {
-       justify-self: start;
+       justify-self: end;
     }
 }
 
 @media (min-width: 960px) {
 
     .info h2 {
-        font-size: 0.9em;
+        font-size: 0.95em;
     }
 
     .name h3 {
@@ -280,4 +284,27 @@ main .portfolio {
         grid-column-start: 4;
         grid-column-end: 6;
     }
+}
+
+@media (min-width: 960px) {
+
+	.photo img {
+	    height: 150px;
+	    width: 140px;
+	    left: 45%;
+	}
+
+	.info h2 {
+	    font-size: 1.0em;
+	}
+
+	.name h3 {
+	    top: 33%;
+	    left: 35%;
+	}
+
+	.name h4 {
+	    top: 45%;
+	    left: 35%;
+	 }
 }
