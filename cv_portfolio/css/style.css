@@ -24,7 +24,7 @@ header {
     position: relative;
     padding-top: 6%;
     height: 50vh;
-    background-image: linear-gradient(125deg, #0BB5FF 40%, #004969 95%);
+    background-image: linear-gradient(120deg, #007FB6 40%, #004969 80%);
     -webkit-clip-path: polygon(100% 0, 100% 50%, 50% 90%, 0 50%, 0 0);
     clip-path: polygon(100% 0, 100% 50%, 50% 90%, 0 50%, 0 0);
 }
@@ -42,14 +42,13 @@ header {
     top: 5%;
     left: 50%;
     background: white;
-    border-radius: 50%;
-    border: solid 6px rgba(204, 204,204, 0.6);
+    border: solid 4px rgba(204, 204,204, 0.6);
     height: 120px;
     width: 120px;
 }
 
 .fa-phone, .fa-globe, .fa-envelope {
-    color: #21B2F1;
+    color: #37C3FF;
     padding-right: 10px;
 }
 
@@ -131,7 +130,7 @@ main .work {
 main .skills {
     grid-column-start: 1;
     grid-column-end: 6;
-    background-image: linear-gradient(125deg, #0BB5FF 40%, #004969 95%);
+    background-image: linear-gradient(125deg, #007FB6 40%, #004969 80%);
     margin-bottom: 10%;
 }
 
@@ -159,7 +158,7 @@ main .skills p {
 main .portfolio {
 	grid-column-start: 1;
 	grid-column-end: 6;
-     background-image: -webkit-linear-gradient(305deg, #0BB5FF 40%, #004969 95%);
+     background-image: -webkit-linear-gradient(125deg, #007FB6 40%, #004969 80%);
 }
 
 .project1, .project2, .project3, .project4 {
@@ -185,6 +184,42 @@ main .portfolio {
     background-image: url(../img/project_4.jpg);
 }
 
+@media (min-width: 300px) {
+
+    main .education, main .work {
+        grid-column-start: 1;
+        grid-column-end: 6;
+    }
+
+    .info h2 {
+        font-size: 0.5em;
+    }
+
+    .info h2:last-child {
+        justify-self: start;
+    }
+
+    .photo img {
+        height: 80px;
+        width: 60px;
+        top: 3%;
+        left: 52%;
+    }
+
+    .name h3 {
+        font-size: 1.7em;
+        top: 30%;
+        left: 15%;
+    }
+
+    .name h4 {
+        font-size: 0.9em;
+        top: 38%;
+	   left: 15%;
+    }
+}
+
+/*
 @media screen and (min-width: 400px) {
     header {
         height: 70vh;
@@ -221,12 +256,13 @@ main .portfolio {
 	   left: 15%;
     }
 }
+*/
 
-@media screen and (min-width: 767px) {
+@media (min-width: 767px) {
     .photo img {
         height: 130px;
-        width: 120px;
-        left: 40%;
+        width: 110px;
+        left: 42%;
     }
 
     .grid-container {
@@ -244,7 +280,7 @@ main .portfolio {
 	}
 
     .name h4 {
-        top: 44%;
+        top: 45%;
         left: 25%;
 	}
 
@@ -265,14 +301,14 @@ main .portfolio {
     }
 
     .name h4 {
-        top: 41%;
+        top: 43%;
         left: 30%;
 	}
 
     .photo img {
         height: 150px;
-        width: 140px;
-        left: 41%;
+        width: 120px;
+        left: 43%;
     }
 
     main .education {
@@ -290,7 +326,7 @@ main .portfolio {
 
 	.photo img {
 	    height: 150px;
-	    width: 140px;
+	    width: 120px;
 	    left: 45%;
 	}
 
@@ -304,7 +340,7 @@ main .portfolio {
 	}
 
 	.name h4 {
-	    top: 41%;
+	    top: 44%;
 	    left: 35%;
 	 }
 }
