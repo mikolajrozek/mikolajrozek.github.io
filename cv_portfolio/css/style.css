@@ -103,17 +103,11 @@ main .about p {
     line-height: 1.4em;
 }
 
-main h2 {
-	text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-}
-
-main h2 {
+main h2, h4 {
     text-align: center;
     color: #21B2F1;
-}
-
-main h2, main h3 {
     text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
 main .education {
@@ -138,8 +132,7 @@ main .skills:last-child {
     padding-bottom: 2%;
 }
 
-main .skills h2, .portfolio h2 {
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
+main .skills h2, .portfolio h4 {
     color: white;
 }
 
@@ -158,7 +151,11 @@ main .skills p {
 main .portfolio {
 	grid-column-start: 1;
 	grid-column-end: 6;
-     background-image: -webkit-linear-gradient(125deg, #007FB6 40%, #004969 80%);
+    background-image: -webkit-linear-gradient(125deg, #007FB6 40%, #004969 80%);
+}
+
+.portfolio h2 {
+    color: #fff;
 }
 
 .project1, .project2, .project3, .project4 {
